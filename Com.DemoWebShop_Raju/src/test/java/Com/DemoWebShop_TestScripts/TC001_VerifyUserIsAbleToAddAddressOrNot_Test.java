@@ -18,6 +18,7 @@ public class TC001_VerifyUserIsAbleToAddAddressOrNot_Test extends BaseTest
     	webDriverUtility.javascriptScrollTillElement(driver, homePage.getAddressesLink());
     	homePage.getAddressesLink().click();
     	
+    	
     	Addresses_Page addressesPage = new Addresses_Page(driver);
     	webDriverUtility.javascriptScrollTillElement(driver, addressesPage.getAddNewButton());
     	addressesPage.getAddNewButton().click();

@@ -16,6 +16,7 @@ public class TC002_VerifyUserIsAbleToDeleteAddressOrNot_Test extends BaseTest
     	webDriverUtility.javascriptScrollTillElement(driver, homePage.getAddressesLink());
     	homePage.getAddressesLink().click();
     	
+    	
     	Addresses_Page addressesPage = new Addresses_Page(driver);
     	addressesPage.getDeleteButton().click();
     	
